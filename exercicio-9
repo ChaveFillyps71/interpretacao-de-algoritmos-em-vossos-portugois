@@ -1,0 +1,14 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro metrosdizidos 
+		inteiro centimetros
+		escreva("Diga quantos metros \n")
+		leia (metrosdizidos)
+
+		centimetros = metrosdizidos * 100
+		escreva("Tem ", centimetros, " centimetros")
+	}
+}
