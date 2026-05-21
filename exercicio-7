@@ -1,0 +1,31 @@
+programa
+{
+	inteiro nota1
+	inteiro nota2
+	inteiro nota3
+	inteiro nota4
+	funcao inicio()
+	{
+		escreva("Diga uma de suas notas para eu calcular a média delas: ")
+		leia(nota1)
+
+		escreva("Diga outra nota sua: ")
+		leia(nota2)
+		
+		escreva("Diga outra nota sua: ")
+		leia(nota3)
+
+		escreva("Diga outra nota sua: ")
+		leia(nota4)
+
+	inteiro media = ((nota1 + nota2 + nota3 + nota4) / 2 )
+
+		se((media / 2) >= 6){
+		escreva("voce passou de ano, pabens")
+		}
+
+		se((media / 2) <= 5 ){
+		escreva("voce reprovou de ano, nao pabens")
+		}
+	}
+}
