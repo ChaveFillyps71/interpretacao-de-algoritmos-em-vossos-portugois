@@ -1,1 +1,1 @@
-# interpreta-o-de-algoritmos-em-vossos-portugois
+# interpretacao-de-algoritmos-em-vossos-portugois
