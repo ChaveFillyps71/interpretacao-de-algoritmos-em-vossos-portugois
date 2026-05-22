@@ -1,0 +1,19 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro comprimientoMaraca = 105
+	inteiro larguraMaraca = 68
+	inteiro areaMaraca = comprimientoMaraca * larguraMaraca
+	inteiro areaDobroMaraca = areaMaraca * 2
+	inteiro MaracaCentimetros = areaDobroMaraca * 100
+
+	escreva("O maracana tem ", comprimientoMaraca, " metros de comprimento\n")
+	escreva( larguraMaraca, " metros de largura\n")
+	escreva( areaMaraca, " metros quadrados\n")
+	escreva("O dobro da area do maracana eh " ,areaDobroMaraca, "\n")
+	escreva("O dobro da area do maracana tem ", MaracaCentimetros, " centimetros\n")
+	
+	}
+}
